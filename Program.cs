@@ -11,9 +11,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SQLite;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 
 
-namespace LB_API_Project
+namespace ProjectFile
 {
     class Program
     {
@@ -56,7 +58,7 @@ namespace LB_API_Project
             }
             if (wasDataReturned)
             {
-                Console.WriteLine("SQL statement returned data.. Date is a holiday!");
+                Console.WriteLine("SQL command returned data.. Date is a holiday!");
             }
             else
             {
@@ -89,4 +91,3 @@ namespace LB_API_Project
         }
     }
 }
-

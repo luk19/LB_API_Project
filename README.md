@@ -3,11 +3,23 @@ Simple API built in C# that returns information on US Federal Holidays given dat
 
 
 # Instructions to Build and Run Project
-    1. Download and install preferred IDE (JetBrains Rider or Microsoft Visual Studio recommended)
-    2. 
+    1. If not already installed, download and install your preferred API Platform ([Postman](https://www.postman.com/downloads/) recommended)
+    2. If not already installed, download and install your preferred C# IDE ([JetBrains Rider](https://www.jetbrains.com/rider/download/#section=mac) or [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) recommended)
+    3. Clone the [LB_API_Project](https://github.com/luk19/LB_API_Project) Repository to your installed C# IDE
+    4. Open the LB_API_Project
+    5. If not already installed, install the "System.Data.SQLite" package on your C# IDE
+        a. In Rider --> right click on the main "ProjectFile" folder, click "Manage NuGet Packages", seach for "System.Data.SQLite", click the appropriate package in the left pane and click the green + symbol in the right pane to install
+        b. In Visual Studio -->
+    6. With the LB_API_Project open in your C# IDE, open "Program.cs"
+    7. Run "Program.cs"
+        a. In Rider --> Click the "Run" button near the top right corner of the application
+        b. In Visual Studio --> 
+    8. In the output/console, the script should print the url and port number that this app is "listening" on, example: Now listening on: https://localhost:5001
+    9. Copy the secure url and paste it into a browser or in a postman get request and hit Send/Enter. This should return the text "Hello World!"
+    10. Using the same url as above add the endpoint "/isHoliday/{iso-formatted-date}" to the url. Example: https://localhost:5001/isHoliday/2021-01-01 14:05:00:123
 
 
-# API Endpoint that can be Called
+# API Endpoints that can be Called
     1. /
     2. /isHoliday
 

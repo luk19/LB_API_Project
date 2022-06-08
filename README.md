@@ -2,6 +2,7 @@
 Simple API built in C# that returns information on US Federal Holidays given dates from 2021-2023.
 
 
+
 ### Instructions to Build and Run Project
 1. If not already installed, download and install your preferred API Platform ([Postman](https://www.postman.com/downloads/) recommended)
 2. If not already installed, download and install your preferred C# IDE ([JetBrains Rider](https://www.jetbrains.com/rider/download/#section=mac) or [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) recommended)
@@ -19,16 +20,24 @@ Simple API built in C# that returns information on US Federal Holidays given dat
 10. Using the same url as above add the endpoint "/isHoliday/{iso-formatted-date}" to the url. Example: https://localhost:5001/isHoliday/2021-01-01 14:05:00:123
 
 
+
+
 ### API Endpoints that can be Called
 1. /
 2. /isHoliday
+
+
 
 
 ### External Libraries Used
 1. System.Data.SQLite   -->   version # 1.0.116
 
 
+
+
 ### SQLite Database Schema
+
+
 
 
 ### Assumptions Made
@@ -36,7 +45,11 @@ Simple API built in C# that returns information on US Federal Holidays given dat
 2. I assumed it was okay for the user/evaluator of this project to use an IDE to build and run the project rather than building and running it on a server or command line interface.
 
 
+
+
 ### Feedback
+
+
 
 
 ### General Notes
@@ -46,15 +59,22 @@ that I was able to dive in and complete this project. I think my lack of C# expe
 and understand I have a lot more to learn.
 
 
+
+
 ### Time Spent
 - So far: 15 hours
+
+
 
 
 ### Problems/Issues
 - Returning an actual JSON object...
 
 
+
+
 ### Enhancements
 1. Adding user authentication logic with an API token
 2. Adding a user input option and endpoint for a date range rather than a specific date that would return all holidays in the specified date range.
+
 
